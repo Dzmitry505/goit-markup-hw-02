@@ -1,6 +1,16 @@
+:root {
+  --first-color: #ffffff;
+  --second-color: #2f303a;
+  --third-color: #2196f3;
+  --fourth-color: #f5f4fa;
+  --fifth-text-color: #212121;
+  --sixth-color: #757575;
+  --seventh-color: #e5e5e5;
+  --eighth-footer-color: rgba(255, 255, 255, 0.6);
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
 }
 .container-list {
   width: 1600px;
