@@ -1,8 +1,13 @@
 :root {
+  --main-color: #e5e5e5;
   --first-color: #ffffff;
   --second-color: #2f303a;
+  --second-text-color: #212121;
+  --header-text-color: #2196f3;
   --third-color: #2196f3;
+  --third-text-color: #757575;
   --fourth-color: #f5f4fa;
+  --btn-color: #2196f3;
   --fifth-text-color: #212121;
   --sixth-color: #757575;
   --seventh-color: #e5e5e5;
@@ -11,6 +16,13 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--main-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 .container-list {
   width: 1600px;
@@ -18,68 +30,195 @@ body {
   background: #ffffff;
   box-shadow: rgba 0;
 }
-/*верхняя линия*/
+/*--------------------------------------------------------------------------------верхняя линия---------------------------------------------------*/
 .about-info {
-  width: 1600px;
-  height: 80px;
-  left: 0;
-  top: 0;
-  background: #ffffff;
+  background-color: var(--first-color);
 }
-/*герой*/
+.header-text-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.header-text-link:hover,
+.header-text-link:focus {
+  color: var(--header-text-color);
+}
+.header-text-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--third-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--header-text-color);
+}
+.contacts-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--third-text-color);
+}
+.contacts-tel-link:hover,
+.contacts-tel-link:focus {
+  color: var(--header-text-color);
+}
+
+/*-----------------------------------------------------------------------------------------герой-------------------------------------------------------*/
 .about-hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-  background: #2f303a;
+  background-color: var(--second-color);
 }
-/* Особенности */
+.main-hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--first-color);
+}
+.btn-hero {
+  width: 200px;
+  height: 50px;
+  left: 715px;
+  top: 430px;
+  background-color: var(--btn-color);
+  border-radius: 4px;
+}
+.btn-hero-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.86;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--first-color);
+}
+/*----------------------------------------------------------------------- Особенности------------------------------------------------------------------------ */
 .about-work {
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
+  background-color: var(--first-color);
 }
-/* Чем мы занимаемся */
+.spc-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+.spc-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+/*---------------------------------------------------------------------- Чем мы занимаемся----------------------------------------------------------------- */
+.prof-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
 .about-profession {
-  width: 1170px;
-  height: 386px;
-  left: 215px;
-  top: 969px;
+  background-color: var(--first-color);
 }
-/* Наша команда */
+/*---------------------------------------------------------------------- Наша команда -----------------------------------------------------------------------*/
 .about-team {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
+  background-color: var(--fourth-color);
 }
-/* Подвал */
-.about-contacts {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-  background: #2f303a;
-}
-
-.about-logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
+.team-info {
+  width: 270px;
+  height: 368px;
   left: 215px;
-  top: 24px;
-
-  font-family: Raleway;
+  top: 1635px;
+  background: var(--first-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.work-direction {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+/*----------------------------------------------------------------------- Подвал------------------------------------------------------------------------------ */
+.about-contacts {
+  background-color: var(--fifth-text-color);
+}
+.addres-map {
+  font-family: Roboto;
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--first-color);
+}
+.mail-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--eighth-footer-color);
+}
+.tel-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--eighth-footer-color);
+  transform: rotate(-0.75deg);
+}
+
+.about-logo-link {
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-
+  line-height: 1.19;
   letter-spacing: 0.03em;
-
-  color: #2196f3;
+  color: var(--third-color);
+}
+.black-logo {
+  color: var(--fifth-text-color);
+}
+.white-logo {
+  color: var(--first-color);
 }
