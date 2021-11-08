@@ -162,7 +162,7 @@ body {
   color: var(--second-text-color);
 }
 .team-name {
-  font-weight: 500;
+  font-weight: medium;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -314,7 +314,7 @@ body {
 .main-btn-list {
 }
 .btn-filter-text {
-  font-weight: 500;
+  font-weight: medium;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
@@ -329,14 +329,14 @@ body {
 .project-title {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
 }
 .project-text {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.86;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
