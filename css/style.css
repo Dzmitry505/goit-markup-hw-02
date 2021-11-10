@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: var(--first-color);
   color: var(--second-text-color);
   letter-spacing: 0.02em;
@@ -30,19 +30,20 @@ body {
   background-color: var(--first-color);
 }
 .navigation-link:hover,
-.mail-link:hover, .tel-link:hover,
+.mail-link:hover,
+.tel-link:hover,
 .navigation-link.current,
 .contacts-link:hover,
 .contacts-tel-link:hover,
 .navigation-link:focus,
 .contacts-link:focus,
-.mail-link:focus, .tel-link:focus,
+.mail-link:focus,
+.tel-link:focus,
 .contacts-tel-link:focus {
   color: var(--btn-color);
 }
 .main-btn-filter.current:hover,
 .main-btn-filter.current {
- 
   color: var(--first-color);
   background-color: var(--btn-color);
 }
@@ -87,7 +88,6 @@ body {
   color: var(--first-color);
 }
 .btn-hero-text {
- 
 }
 /*----------------------------------------------------------------------- Особенности------------------------------------------------------------------------ */
 .about-work {
@@ -212,8 +212,8 @@ body {
   color: var(--first-color);
   background-color: var(--btn-color);
 }
- 
-.main-btn-list {
+
+.main-btn-list
 /*----------------------------------------------------------------проект-------------------------------------------------------------------------------------*/
 .project-title {
   font-weight: bold;
